@@ -1,0 +1,16 @@
+body {
+    background-color: gray;
+    padding: 20px;
+    margin: 150px 200px;
+}
+#playing-cards {
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-between;
+}
+.card {
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    border-radius: 12px;
+}

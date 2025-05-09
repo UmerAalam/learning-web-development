@@ -1,0 +1,61 @@
+body {
+    background-color: #ced4da;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.container {
+    background-color: white;
+    width: 80%;
+    height: 80vh;
+    display: grid;
+    gap: 5px;
+    padding: 5px;
+    grid-template-areas: 
+    "header header"
+    "horizontal-box vertical-box"
+    "box box";
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr;
+}
+.container > div.box-1 {
+    background-color: #f8f9fa;
+    grid-area: box;
+    grid-column: 1/2;
+    grid-row: -2/4;
+    width: 51.5%;
+}
+.container > div.box-2 {
+    background-color: #f8f9fa;
+    grid-area: box;
+    grid-column: 2/2;
+    grid-row: 2/4;
+}
+.container > div.vertical-box {
+    background-color: #f8f9fa;
+    grid-area: vertical-box;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    justify-self: end;
+    width: 48%;
+    margin-left: 50%;
+}
+.container > div.horizontal-box {
+    grid-column: 1/-1;
+    background-color: #f8f9fa;
+    grid-area: horizontal-box;
+}
+.container > div.header {
+    background-color: #22223b;
+    grid-area: header;
+}
+.container > div
+h2 {
+    color: white;
+    /* margin-top: 50px; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+}

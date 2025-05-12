@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.orbit {
+    height: 4% vh;
+    width: 4% vw;
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    background-color: blue;
+}
+.ball {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    position: absolute;
+    background-color: yellow;
+    animation: ball 10s linear infinite;
+}
+@keyframes ball {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Museum Gallery</h1>
+        <div class="image-grid">
+            <button class="image-shape">
+                <img src="https://cdn.pixabay.com/photo/2024/07/13/07/40/cars-8891625_1280.jpg" alt="Car 1">
+            </button>
+            <button class="image-shape">
+                <img src="https://cdn.pixabay.com/photo/2022/07/04/10/46/vintage-car-7300881_1280.jpg" alt="Car 2">
+            </button>
+            <button class="image-shape">
+                <img src="https://cdn.pixabay.com/photo/2023/07/19/12/16/car-8136751_1280.jpg" alt="Car 3">
+            </button>
+        </div>
+        <div id="overview" class="hidden">
+            <button><img width ="50" height="50" src="https://png.pngtree.com/png-vector/20190603/ourmid/pngtree-icon-close-button-png-image_1357822.jpg" alt="close-icon"></button>
+            <img id="overview-img" src="https://cdn.pixabay.com/photo/2023/07/19/12/16/car-8136751_1280.jpg" alt="Car 3">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

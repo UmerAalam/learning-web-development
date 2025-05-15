@@ -1,0 +1,49 @@
+
+body {
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 9%;
+    padding: 5px;
+    background-color: #d4a373;
+    color: antiquewhite;
+    width: 80%;
+    border-radius: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#text-field {
+    display: flex;
+    margin: 0px auto;
+    width: 50%;
+    height: 50%;
+    appearance: none;
+    border-radius: 12px;
+    background-color: #d4a373;
+    color: antiquewhite;
+    border: none;
+    text-indent: 20px;
+}
+.counter-container {
+    color: brown;
+    text-align: center;
+    margin-top: 20px;
+    font-size: larger;
+}
+#text-field::placeholder {
+text-indent: 20px;
+color: antiquewhite;
+}
+.container {
+    background-color: antiquewhite;
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    border-radius: 12px;
+}
